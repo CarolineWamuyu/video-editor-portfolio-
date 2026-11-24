@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101114">
+  <meta name="description" content="Alex Rivera — video editor and visual storyteller.">
+  <title>Alex Rivera — Video Editor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<div class="site-shell">
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="brand-icon">▷</span><span>ALEX <em>RIVERA</em></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" aria-label="Open navigation menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="main-navigation" aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#work">Portfolio</a><a href="#about">About</a><a href="#services">Services</a>
+      <a class="nav-button" href="#contact">Let’s talk ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="portrait-column slide-left">
+        <div class="portrait-ring">
+          <img src="assets/hero-portfolio-concept.png" alt="Cinematic portrait artwork for video editor Alex Rivera">
+        </div>
+        <span class="floating-play" aria-hidden="true">▶</span>
+        <span class="portrait-caption">FRAME 001 <i>—</i> THE CREATOR</span>
+      </div>
+      <div class="hero-copy slide-right">
+        <p class="eyebrow"><span></span> Visual storyteller · Available for projects</p>
+        <p class="hello">Hello, I'm</p>
+        <h1>Alex Rivera</h1>
+        <p class="role-line">A video editor who makes <strong id="typed-text">stories move</strong><b class="typing-cursor">|</b></p>
+        <p class="intro">I turn raw footage into stories people remember. Thoughtful pacing, precise cuts, and a cinematic eye — from the first frame to the final export.</p>
+        <div class="social-links">
+          <a href="#contact" aria-label="YouTube">▶</a><a href="#contact" aria-label="Instagram">ig</a><a href="#contact" aria-label="Vimeo">v</a><a href="mailto:hello@alexrivera.studio" aria-label="Email">✉</a>
+        </div>
+        <div class="hero-actions"><a class="button primary" href="#work">Explore my work <span>→</span></a><a class="button ghost" href="#contact">Start a project</a><a class="button download-button" href="assets/alex-rivera-cv.txt" download="Alex-Rivera-CV.txt">Download CV <span>↓</span></a></div>
+        <a class="scroll-cue" href="#work"><span class="mouse"></span> SCROLL TO EXPLORE</a>
+      </div>
+      <div class="hero-watermark" aria-hidden="true">CUT / COLOR / CREATE</div>
+    </section>
+
+    <section class="section work-section" id="work">
+      <p class="section-kicker reveal">SELECTED WORK · 2024—2026</p>
+      <h2 class="section-heading reveal">Stories in <span>motion.</span></h2>
+      <p class="section-intro reveal">A few frames from projects built to move people, not just fill a screen.</p>
+      <article class="featured-project reveal">
+        <div class="video-wrap">
+          <video controls playsinline preload="metadata" poster="assets/hero-portfolio-concept.png">
+            <source src="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4" type="video/mp4">
+            Your browser does not support HTML video.
+          </video>
+          <span class="video-label">FEATURED FILM · TRAVEL</span>
+        </div>
+        <div class="project-copy">
+          <p class="project-index">01 / FEATURED PROJECT</p>
+          <h3>Beyond the Ordinary</h3>
+          <p>A cinematic travel piece shaped around atmosphere, movement, and the small details that make a journey unforgettable.</p>
+          <div class="project-meta"><span>▶ 01:00 preview</span><span>Color · Sound · Edit</span></div>
+        </div>
+      </article>
+      <div class="project-grid">
+        <article class="project-card reveal"><img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=85" alt="Minimal modern workspace"><div><h3>Brand in Motion</h3><p>Brand film · Commercial</p></div></article>
+        <article class="project-card reveal"><img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=900&q=85" alt="Dreamlike night sky"><div><h3>After the Light</h3><p>Music visual · Color grade</p></div></article>
+        <article class="project-card reveal"><img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=85" alt="Creative digital production"><div><h3>Made for the Feed</h3><p>Social campaign · Reels</p></div></article>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <p class="section-kicker reveal">WHAT I DO</p>
+      <h2 class="section-heading reveal">From raw clips to <span>final cut.</span></h2>
+      <p class="section-intro reveal">A considered post-production process, tailored to the story and the platform.</p>
+      <div class="services-grid">
+        <article class="service-card reveal"><small>01 / EDIT</small><h3>Video editing</h3><p>Story-led cuts, pacing, transitions, and polished delivery for every screen.</p></article>
+        <article class="service-card reveal"><small>02 / FINISH</small><h3>Color & sound</h3><p>Cinematic color grading, clean audio, sound design, and music sync.</p></article>
+        <article class="service-card reveal"><small>03 / CREATE</small><h3>Social content</h3><p>Scroll-stopping short-form edits, captions, hooks, and platform-ready exports.</p></article>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="about-title reveal"><p class="section-kicker">A LITTLE ABOUT ME</p><h2>Good editing is<br><span>felt, not noticed.</span></h2></div>
+      <div class="about-copy reveal"><p>I’m Alex — an editor focused on making every second count. I partner with creators, brands, and teams to find the strongest story inside the footage, then shape it with rhythm, restraint, and detail.</p><p>From a fast-paced social cut to a considered brand film, the goal stays the same: make it mean something.</p>
+        <div class="stats"><div><b>05+</b><small>Years creating</small></div><div><b>80+</b><small>Projects cut</small></div><div><b>12</b><small>Brands reached</small></div></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <p class="section-kicker reveal">HAVE A STORY TO TELL?</p><h2 class="reveal">Let’s make it <span>move.</span></h2>
+      <p class="reveal">Tell me what you’re creating. I’ll bring the edit.</p>
+      <div class="contact-actions reveal">
+        <a class="button primary" href="mailto:hello@alexrivera.studio?subject=Let's%20make%20something">hello@alexrivera.studio <span>↗</span></a>
+        <a class="whatsapp-button" href="https://wa.me/12025550147?text=Hi%20Alex%2C%20I%27d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer">
+          <span class="whatsapp-mark" aria-hidden="true">W</span><span>WhatsApp <small>+1 (202) 555-0147</small></span><span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer><span>© 2026 Alex Rivera. Crafted with intention.</span><span>VIDEO EDITOR · STORYTELLER · CREATIVE PARTNER</span></footer>
+</div>
+</body>
+</html>
